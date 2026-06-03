@@ -6,6 +6,10 @@ import numpy as np
 from sklearn.cluster import AgglomerativeClustering
 import matplotlib.pyplot as plt
 from sklearn.metrics import silhouette_score
+from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeRegressor, plot_tree
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_absolute_error
 
 # In[2]:
 import streamlit as st
